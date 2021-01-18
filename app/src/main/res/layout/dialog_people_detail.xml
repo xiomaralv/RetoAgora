@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@drawable/background_rounded_white"
+    tools:context=".ui.people.detail.PeopleDetailDialog">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/primary"
+        android:layout_marginBottom="35dp"
+        tools:text="Luke Skywalker" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHeight"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        tools:text="Tamaño: 172" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvMass"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        tools:text="Masa: 77" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHairColor"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        tools:text="Color de cabello: blond" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSkinColor"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        tools:text="Color de piel: fair" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEyeColor"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        tools:text="Color de ojos: blue" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvBirthyear"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        tools:text="Año de Nacimiento: 19BBY" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGender"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        tools:text="Gènero: male" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAcceot"
+        android:text="@string/aceptar"/>
+
+</LinearLayout>

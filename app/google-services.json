@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "896561305006",
+    "project_id": "agora-f0e5e",
+    "storage_bucket": "agora-f0e5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896561305006:android:a4455f4883a85c5a73643f",
+        "android_client_info": {
+          "package_name": "com.intercorp.retoagora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896561305006-ek0hbaohv1kki5gfeaff3ifa9pt56rq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmHvr_p9xsHUcPlDYUFD06IL9sBKcH9ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896561305006-ek0hbaohv1kki5gfeaff3ifa9pt56rq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
